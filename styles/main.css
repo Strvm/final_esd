@@ -1,0 +1,140 @@
+body, html {
+  margin: 0;
+}
+
+main {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+main .mainLogo {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+main .mainLogo .echoLogo {
+  width: 95%;
+  margin: 0 auto;
+}
+main .mainLogo .textLogo {
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+.orangeText {
+  color: #F44B30;
+  font-weight: bold;
+}
+
+p, h1, h2, h3, h4, h5, h6, span, li {
+  font-family: "Work Sans";
+}
+
+.sectionContainer {
+  margin: 0 auto;
+  width: 80vw;
+  margin-bottom: 150px;
+}
+.sectionContainer .peopleImg {
+  border-bottom: #F44B30 10px solid;
+}
+.sectionContainer .romeoPres {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+.sectionContainer .romeoPres .romeoImg {
+  width: 25%;
+}
+.sectionContainer .romeoPres p {
+  font-size: 18px;
+  width: 45%;
+}
+.sectionContainer .bossPres {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10%;
+}
+.sectionContainer .bossPres p {
+  font-size: 18px;
+  width: 75%;
+}
+.sectionContainer .dataPres {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 140px;
+}
+.sectionContainer .competitionPres .competLogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.sectionContainer .competitionPres img {
+  width: 15%;
+}
+.sectionContainer .competitionPres p {
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+}
+.sectionContainer .teamPres {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.sectionContainer .teamPres img {
+  width: 55%;
+}
+.sectionContainer .teamPres p {
+  margin: 55px;
+  width: 65%;
+}
+.sectionContainer .whatIDo {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 90px;
+}
+.sectionContainer .whatIDo .technos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+}
+.sectionContainer .whatIDo .technos img {
+  width: 12%;
+}
+.sectionContainer .rooftopPres {
+  text-align: center;
+}
+.sectionContainer .rooftopPres p {
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.sectionContainer .thanks {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.sectionContainer .thanks img {
+  width: 25%;
+}
+.sectionContainer .thanks p {
+  width: 75%;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,163 @@
+body, html{
+  margin: 0;
+}
+
+main{
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  .mainLogo {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    text-align: center;
+    .echoLogo {
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    .textLogo{
+      margin-top: 60px;
+      font-size: 20px;
+    }
+  }
+}
+
+.orangeText{
+  color: #F44B30;
+  font-weight: bold;
+}
+
+
+
+p, h1,h2,h3,h4,h5,h6,span, li{
+  font-family: "Work Sans";
+}
+
+
+.sectionContainer{
+  margin: 0 auto;
+  width: 80vw;
+  margin-bottom: 150px;
+
+  .peopleImg{
+    border-bottom: #F44B30 10px solid;
+  }
+
+  .romeoPres {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    .romeoImg {
+      width: 25%;
+    }
+
+    p{
+      font-size: 18px;
+      width: 45%;
+    }
+
+
+  }
+  .bossPres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10%;
+
+    p{
+      font-size: 18px;
+      width: 75%;
+    }
+  }
+
+  .dataPres{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 140px;
+  }
+
+  .competitionPres{
+    .competLogos {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-bottom: 20px;
+    }
+    img{
+      width: 15%;
+    }
+
+    p {
+      text-align: center;
+      width: 65%;
+      margin: 0 auto;
+    }
+  }
+
+  .teamPres{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 90px;
+    img{
+      width: 55%;
+    }
+    p{
+      margin: 55px;
+      width: 65%;
+    }
+  }
+
+  .whatIDo{
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 90px;
+
+    .technos{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-bottom: 70px;
+      img{
+
+        width: 12%;
+      }
+    }
+  }
+
+  .rooftopPres{
+    text-align: center;
+    p{
+      width: 75%;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+
+  .thanks{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    img{
+      width: 25%;
+    }
+
+    p{
+      width: 75%;
+    }
+  }
+
+}
+
+
